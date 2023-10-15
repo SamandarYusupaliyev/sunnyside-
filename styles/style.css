@@ -1,0 +1,414 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* barlow-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/barlow-v12-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* barlow-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/barlow-v12-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* fraunces-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/fraunces-v31-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* fraunces-900 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 900;
+  src: url('../fonts/fraunces-v31-latin-900.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* container */
+.container{
+  width: 890px;
+  height: 2324px;
+  flex-shrink: 0;
+    background: #F1F1F1;
+    margin-left:  auto;
+    margin-right:  auto;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.list{
+  list-style: none;
+}
+
+.user_title{
+  margin-left: 30px;
+  color: white;
+  width: 170px;
+  height: 33px;
+  width: 170px;
+height: 33px;
+flex-shrink: 0;
+font-size: 25px;
+}
+
+.d{
+  color: #d8d3d3;
+font-family: Barlow;
+font-size: 15px;
+font-weight: 600;
+line-height: 25px;
+letter-spacing: -0.129px;
+text-decoration: none;
+}
+/* user_btn */
+.user_btn{
+  margin-right: 40px;
+  width: 120px;
+height: 40px;
+flex-shrink: 0;
+border-radius: 28px;
+background: #FFF;
+color: #24303E;
+font-size: 12px;
+font-weight: 700;
+line-height: 25px;
+letter-spacing: -0.107px;
+text-transform: uppercase;
+border: none;
+margin-top: 8px;
+}
+
+.user_btn:hover{
+  background: #a9a4a4;
+  cursor: pointer;
+  transition-duration: 2s;
+}
+
+.title{
+  text-align: center;
+  color: #FFF;
+text-align: center;
+font-family: Fraunces 9pt Soft;
+font-size: 30px;
+font-weight: 900;
+letter-spacing: 8.75px;
+text-transform: uppercase;
+background-color: #49BCF1;
+}
+/* container_img */
+ .foto img{
+  width:890px;
+  height: 360px;
+ }
+
+ /* box_block */
+ .box{
+  display: flex;
+  width: 890px;
+  height: 100px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #49BCF1;
+ }
+
+ .list{
+display: flex;
+gap: 50px;
+ }
+ 
+/* news_block */
+.news{
+  width: 445px;
+height: 350px;
+flex-shrink: 0;
+padding-top: 40px;
+padding-left: 70px;
+background: #FFFCF8;
+}
+
+.brand_text{
+  color: #808397;
+font-size: 15px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: -0.129px;
+margin-bottom: 40px;
+}
+
+.brand_title{
+  color: #24303E;
+font-size: 30px;
+font-weight: 900;
+letter-spacing: -0.286px;
+margin-bottom: 32px;
+}
+
+.brand_link{
+  text-decoration: none;
+  color: #24303E;
+font-size: 15px;
+font-weight: 700;
+line-height: 20px;
+letter-spacing: 1px;
+text-transform: uppercase;
+}
+.unsplash{
+  width: 445px;
+  height: 350px;
+  background: url(/images/mae-mu-40NjbC-Q-cw-unsplash.png);
+  background-position:top;
+  background-position-y: -110px;
+}
+/* card */
+.card{
+  display: flex;
+}
+  
+/* card_1 */
+ .card_1{
+  display: flex;
+ }
+
+.foto_1 img{
+  width: 445px;
+  height: 350px;
+}
+
+.stand{
+  width: 445px;
+  height: 350px;
+  background: #FFFCF8;
+  padding-top: 40px;
+  padding-left: 70px;
+}
+
+.stand_title{
+  color: #24303E;
+font-family: Fraunces 9pt Soft;
+font-size: 30px;
+font-weight: 900;
+letter-spacing: -0.286px;
+margin-bottom: 33px;
+}
+
+.stand_text{
+  color: #808397;
+font-size: 15px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: -0.129px;
+margin-bottom: 44px;
+}
+
+.stand_link{
+  color: #24303E;
+font-size: 15px;
+font-weight: 700;
+line-height: 20px;
+letter-spacing: 1px;
+text-transform: uppercase;
+text-decoration: none;
+}
+
+/* card_block_3 */
+.card_3{
+  display:flex;
+  margin-bottom: 40px;
+}
+
+/* design_block */
+
+.design img{
+ width: 445px;
+ height: 350px;
+}
+
+.design_1 img{
+  width: 445px;
+  height: 350px;
+}
+
+.client{
+  text-align: center;
+  color: #A7AAAD;
+text-align: center;
+font-size: 20px;
+font-weight: 900;
+letter-spacing: 5px;
+margin-bottom: 35px;
+}
+/* card_4 */
+
+.card_4{
+  display: flex;
+}
+
+/* emily_block */
+.emily{
+  width: 450px;
+  height: 300px;
+}
+
+.emily img{
+  padding-left: 180px;
+  margin-bottom: 48px;
+}
+
+.emily_text{
+  text-align: center;
+  color: #5B636D;
+font-size: 15px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: -0.129px;
+margin-bottom: 40px;
+}
+
+.emily_1{
+  color: #24303E;
+text-align: center;
+font-size: 18px;
+font-weight: 900;
+letter-spacing: -0.129px;
+margin-bottom: 10px;
+padding-left: 180px;
+}
+
+.emily_2{
+  color: #A7AAAD;
+text-align: center;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: -0.1px;
+padding-left: 180px;
+}
+/* thomas */
+.thomas{
+  width: 450px;
+  height: 300px;
+}
+
+.thomas img{
+  padding-left: 180px;
+  margin-bottom: 48px;
+}
+
+.thomas_text{
+  color: #5B636D;
+text-align: center;
+font-size: 15px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: -0.129px;
+margin-bottom: 40px;
+}
+
+.thomas_1{
+  color: #24303E;
+text-align: center;
+font-size: 18px;
+font-weight: 900;
+letter-spacing: -0.129px;
+margin-bottom: 10px;
+padding-left: 180px;
+}
+
+.thomas_2{
+  color: #A7AAAD;
+text-align: center;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: -0.1px;
+padding-left: 180px;
+}
+
+/* card_5 */
+
+.card_5{
+  display: flex;
+  margin-bottom: 0px;
+}
+
+
+.fot_1 img {
+  width: 223px;
+  height: 180px;
+}
+
+.fot_2 img{
+  width: 223px;
+  height: 180px;
+}
+
+.fot_3 img{
+  width: 223px;
+  height: 180px;
+}
+
+.fot_4 img{
+  width: 223px;
+  height: 180px;
+}
+
+/* card_6 */
+
+.card_6{
+  width: 890px;
+  height: 184px;
+   background: #90D4C6;;
+   padding-top: 42px;
+}
+
+.footer_list{
+  list-style: none;
+}
+
+.footer_title{
+  text-align: center;
+color: #2C7566;
+font-size: 18px;
+font-weight:bold;
+margin-bottom: 30px;
+}
+
+.footer_list{
+  display: inline-flex;
+  justify-content:center;
+  align-items: flex-start;
+  gap: 57px;
+  margin-left: 60px;
+  margin-bottom: 20px;
+  margin-left: 300px;
+}
+
+.footer_list_item{
+  color: #458D7E;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px; 
+  letter-spacing: -0.129px;
+}
+/* footer_6 */
+.footer_6{
+  width: 164px;
+height: 40px;
+flex-shrink: 0;
+margin-left: 340px;
+}
+
+
+
+
